@@ -18,7 +18,7 @@ El componente Home contendrá los tres enlaces cargarán el componente City, pas
 
 El componente City contendrá un array de objetos [{year:1900, url:'http:imagen'}].
 Se recogerá el parámetro del año de la url y se mapeará con el objeto para mostrar:
-- el año como título <h1>{{year}}</h1> y,
-- la imagen correspondiente: <img src={{url}}>
+- el año como título `<h1>{{year}}</h1>` y,
+- la imagen correspondiente: `<img src={{url}}>`
 
 Se debe incorporar un enlace con el texto "back" para volver al listado.
