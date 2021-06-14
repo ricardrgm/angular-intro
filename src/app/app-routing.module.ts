@@ -6,8 +6,8 @@ import { HomeComponent } from './commons/home/home.component';
 const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'},
-  {path:'city/:year', component:CityComponent}
-  // {path:'**', component:NotfoundComponent}
+  {path:'city/:year', component:CityComponent},
+  {path:'**', redirectTo:'/home'}
 
 
 ];

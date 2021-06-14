@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CommonRoutingModule } from './common-routing.module';
+import { CommonRoutingModule } from './commons-routing.module';
 import { CityComponent } from './city/city.component';
 import { HomeComponent } from './home/home.component';
 
